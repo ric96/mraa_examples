@@ -8,8 +8,8 @@
 #include "mraa.h"
 
 int running = 0;
-static int outpin[] = {13,15,16};
-static int inpin[] = {29,31,37};
+static int outpin[] = {27,25,23};
+static int inpin[] = {33,31,29};
 
 void
 sig_handler(int signo)
